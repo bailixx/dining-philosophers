@@ -123,5 +123,5 @@ st.markdown("</div>", unsafe_allow_html=True)
 # --- 稳定的状态机时钟引擎 ---
 if st.session_state.running:
     update_logic()  # 步进一次状态
-    time.sleep(2) # 稳定帧率
+    time.sleep(1) # 稳定帧率
     st.rerun()      # 刷新页面
